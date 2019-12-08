@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+  
+  <InterfaceMultiLinkEdit>
+   
+    <ManageCustomerServices>//a[contains(text(),"Manage Customer's Service")]</ManageCustomerServices>
+    <NavigationToInterfaceMultiLinkEdit>//a[contains(text(),'interface Multi link Edit')]</NavigationToInterfaceMultiLinkEdit>
+    
+    <breadcrumb>//li[@class='active breadcrumb-item']</breadcrumb>
+	<HomeLink>//a[contains(text(),'Home')]</HomeLink>
+	<InterfaceNameForIPv4>//input[@id='interfacename']</InterfaceNameForIPv4>
+	<InterfaceAddressRangeForIPv4>(//input[@id='interfaceaddressname'])[1]</InterfaceAddressRangeForIPv4>
+	<InterfaceAddressRangeForIPv4_right>(//input[@id='interfaceaddressname'])[2]</InterfaceAddressRangeForIPv4_right>	
+	<NetworkForIpv4>(//select[@id="network"])[1]</NetworkForIpv4>
+	<GetAddress>(//span[contains(text(),'Get Address')])[1]</GetAddress>
+	<EIPAllocation>(//span[contains(text(),'EIP Allocation')])[1]</EIPAllocation>
+	<GetAddress_IPv6>(//span[contains(text(),'Get Address')])[2]</GetAddress_IPv6>
+	<EIPAllocation_Ipv6>(//span[contains(text(),'EIP Allocation')])[2]</EIPAllocation_Ipv6>
+	<NetworkForIpv6>(//select[@id="network"])[2]</NetworkForIpv6>
+	<InterfaceAddressRangeForIPv6>//div[6]//div[1]//div[1]//input[1]</InterfaceAddressRangeForIPv6>
+	
+    <SecondaryIPsTextName>//label[contains(text(),'Secondary IPs')]</SecondaryIPsTextName>
+
+  </InterfaceMultiLinkEdit>
+
+
+
+   <SecondaryIPs>
+        
+          <radioButtonForSecondaryIps>(//div[@class='ag-body ag-layout-normal ag-row-no-animation'])[1]/div[2]</radioButtonForSecondaryIps> 
+          <SecondaryIpsHeader_CommonHeader>(//div[@class='ag-root ag-font-style ag-layout-normal'])[1]/div/div/div//div[@class='ag-header-row']/div</SecondaryIpsHeader_CommonHeader>
+          <SecondaryIps_PageNavigationArrowForFirstPage>(//span[@class='ag-paging-page-summary-panel'])[1]//*[text()='First']</SecondaryIps_PageNavigationArrowForFirstPage>
+          <SecondaryIps_PageNavigationArrowForPreviousPage>(//span[@class='ag-paging-page-summary-panel'])[1]//*[text()='Previous']</SecondaryIps_PageNavigationArrowForPreviousPage>
+          <SecondaryIps_PageNavigationArrowForNextPage>(//span[@class='ag-paging-page-summary-panel'])[1]//*[text()='Next']</SecondaryIps_PageNavigationArrowForNextPage>
+          <SecondaryIps_PageNavigationArrowForLastPage>(//span[@class='ag-paging-page-summary-panel'])[1]//*[text()='Last']</SecondaryIps_PageNavigationArrowForLastPage> 
+   
+   </SecondaryIPs>
+
+
+
+
+   <MultilinkBearer>      
+         
+         <radioButtonForMultiBearerTable>(//div[@class='ag-body ag-layout-normal ag-row-no-animation'])[2]/div[2]</radioButtonForMultiBearerTable>
+         <MultilinkBearer_CommonHeader>(//div[@class='ag-root ag-font-style ag-layout-normal'])[2]/div/div/div//div[@class='ag-header-row']/div</MultilinkBearer_CommonHeader> 
+         <MultilinkBearer_PageNavigationArrowForFirstPage>(//span[@class='ag-paging-page-summary-panel'])[2]//*[text()='First']</MultilinkBearer_PageNavigationArrowForFirstPage>
+         <MultilinkBearer_PageNavigationArrowForPreviousPage>(//span[@class='ag-paging-page-summary-panel'])[2]//*[text()='Previous']</MultilinkBearer_PageNavigationArrowForPreviousPage>
+         <MultilinkBearer_PageNavigationArrowForNextPage>(//span[@class='ag-paging-page-summary-panel'])[2]//*[text()='Next']</MultilinkBearer_PageNavigationArrowForNextPage>
+         <MultilinkBearer_PageNavigationArrowForLastPage>(//span[@class='ag-paging-page-summary-panel'])[2]//*[text()='Last']</MultilinkBearer_PageNavigationArrowForLastPage> 
+
+   </MultilinkBearer>
+  
+   
+   
+   <CommonXmlToFindSpecificValueInsideTabel>//div[contains(text(),'Interface 1')]</CommonXmlToFindSpecificValueInsideTabel>
+
+  
+   
+
+</locators>

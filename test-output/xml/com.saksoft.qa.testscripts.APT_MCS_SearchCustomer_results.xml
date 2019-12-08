@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APT_MCS"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="42.718">
+  <properties />
+  
+  
+            <testcase name="verifySearchCustomerFields" time="22.183" classname="com.saksoft.qa.testscripts.APT_MCS_SearchCustomer" />
+                <testcase name="verifySearchCustomerFunctionality" time="20.535" classname="com.saksoft.qa.testscripts.APT_MCS_SearchCustomer" />
+      
+</testsuite>

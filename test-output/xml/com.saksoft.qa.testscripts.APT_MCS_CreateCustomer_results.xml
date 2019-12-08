@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APT_MCS"
+           tests="13"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="522.953">
+  <properties />
+            <testcase name="verifyCreateCustomerMandatoryFields" time="193.297" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for com.saksoft.qa.driverlibrary.DriverHelper$3@67ee9836 (tried for 180 second(s) with 15 SECONDS interval)"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.saksoft.qa.driverlibrary.DriverHelper$3@67ee9836 (tried for 180 second(s) with 15 SECONDS interval)
+  org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+  com.saksoft.qa.driverlibrary.DriverHelper.getwebelement(DriverHelper.java:357)
+  com.saksoft.qa.scripthelpers.APT_MCS_CreateCustomerHelper.verifyCreateCustomerMandatoryFields(APT_MCS_CreateCustomerHelper.java:119)
+  com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyCreateCustomerMandatoryFields(APT_MCS_CreateCustomer.java:183)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Name')]"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DOSYSNET174', ip: '172.30.246.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\pramod.k\AppData\Local\Temp\scoped_dir26964_9276}, takesHeapSnapshot=true, pageLoadStrategy=none, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=77.0.3865.75, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4085d1b4fec5ff3a92065febd1f8b29e
+*** Element info: {Using=xpath, value=//div[contains(text(),'Name')]}
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+  com.saksoft.qa.driverlibrary.DriverHelper$3.apply(DriverHelper.java:359)
+  com.saksoft.qa.driverlibrary.DriverHelper$3.apply(DriverHelper.java:1)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+  com.saksoft.qa.driverlibrary.DriverHelper.getwebelement(DriverHelper.java:357)
+  com.saksoft.qa.scripthelpers.APT_MCS_CreateCustomerHelper.verifyCreateCustomerMandatoryFields(APT_MCS_CreateCustomerHelper.java:119)
+  com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyCreateCustomerMandatoryFields(APT_MCS_CreateCustomer.java:183)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyAddedUserDetailsInViewUserPage" time="26.235" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+== Password text is empty after clicked on &apos;Generate password link&apos; =="
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+== Password text is empty after clicked on 'Generate password link' ==
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+  com.saksoft.qa.scripthelpers.APT_MCS_CreateCustomerHelper.verifyAddedUserValuesInViewUserPage(APT_MCS_CreateCustomerHelper.java:769)
+  com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyAddedUserDetailsInViewUserPage(APT_MCS_CreateCustomer.java:110)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="verifyDeleteCustomerFunctionality" time="26.174" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="verifyCreateCustomerFields" time="12.669" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="setEditedOrModifiedCustomerDetailsIntoExcelSheet" time="25.655" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="verifyCreatedCustomerDetailsInCustomerDetailsPage" time="23.572" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="EditUserdatas" time="35.955" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="verifyEditCustomerFields" time="31.569" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="setEditedOrModifiedUserDetailsIntoExcelSheet" time="25.670" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="verifyAddUserFunctionalityUnderCreateCustomer" time="56.544" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="verifyAddUserFieldsUnderCreateCustomer" time="32.546" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="createCustomer_verifyFunctionality" time="26.055" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+                <testcase name="EditCustomerdatas" time="7.012" classname="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+      
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Orange End to End Order]">
+  <listeners>
+    <listener class-name="Listners.TestListener"/>
+  </listeners>
+  <test name="Orange End to End Order(failed)">
+    <classes>
+      <class name="Testscript.HomePage">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="AdminTab"/>
+          <include name="BeforeSuite"/>
+          <include name="Teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testscript.HomePage -->
+    </classes>
+  </test> <!-- Orange End to End Order(failed) -->
+</suite> <!-- Failed suite [Orange End to End Order] -->

@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="APT_MCS Test Suite" parallel="classes">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
+
+
+	<test name="APT_MCS" preserve-order="true">
+		<classes>
+			<class name="com.saksoft.qa.apttestscripts.APT_MCS_CreateCustomer" />
+			<class name="com.saksoft.qa.apttestscripts.APT_MCS_SearchCustomer" />
+
+		</classes>
+	</test>
+</suite>
+

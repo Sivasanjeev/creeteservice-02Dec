@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+  
+  <VOIPstatistics>
+     
+      <ManageCustomerServices>//a[contains(text(),"Manage Customer's Service")]</ManageCustomerServices>
+      <Statistics>(//a[contains(text(),'Statistics')])[1]</Statistics>
+      <voipStatistics>//a[contains(text(),'VOIP Statistics')]</voipStatistics>
+     <EnablingStartDate>(//input[@class='form-control  input-sm datepicker '])[1]</EnablingStartDate>
+     <EnablingEndDate>(//input[@class='form-control  input-sm datepicker '])[2]</EnablingEndDate>
+     <RoleDropdown></RoleDropdown>
+     <NextMonth>//button[@class='react-datepicker__navigation react-datepicker__navigation--next']</NextMonth>
+     <PreviousMonth>//button[@class='react-datepicker__navigation react-datepicker__navigation--previous']</PreviousMonth>
+     <StartdateCalendar>//div[@class='react-datepicker__month']//div[@aria-label='day-29']</StartdateCalendar>
+  </VOIPstatistics>
+  
+</locators>

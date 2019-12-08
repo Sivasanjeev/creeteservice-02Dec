@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="APT MCN Suite Run" thread-count="1" verbose="1"
+	annotations="JDK">
+
+
+	<listeners>
+		       
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		      
+		 
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		   
+	</listeners>
+
+
+	<test name="APT_MCS" preserve-order="true">
+		<classes>
+			<class
+				name="com.saksoft.qa.testscripts.APT_MCS_CreateOrderService" />
+			<methods>
+			
+		<!--   <include name="verifyCreateNewOrderServiceFunctionality" />
+				<include name="VerifyLANlinkServicetypeFields" />
+				<include name="EnterValuesForServiceSelected" />
+				<include name="VerifylistofFieldsforServiceSubtypeselected" />
+				<include name="EnterTheDataforServiceSubtypeselected"/>
+				<include name="VerifydatenteredForServiceSubTypeSelected" />
+				<include name="vERIFYADDSITEORDERFIELDS" />
+				<incude name="createADDSITEORDERDETAILS" />
+				<include name="VerifyEDITSITEORDERDETAILS"/>
+				<include name="editSITEORDERDETAILS" />
+				<include name="DeleteSITEORDERDETAILS" />
+				<include name="viewSITEORDERDETAILS" />
+				<include name="addPEdevice" />
+				<include name="viewPEdevice" />
+				<include name="editPEdevice" />
+				-->
+				
+				<include name="verifyCreateNewOrderServiceFunctionality" />
+			   
+          </methods>
+		</classes>
+
+	</test>
+
+
+
+
+
+
+</suite>

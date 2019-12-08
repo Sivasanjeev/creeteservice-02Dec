@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [CPQ End to End Order]">
+  <listeners>
+    <listener class-name="Listners.TestListener"/>
+  </listeners>
+  <test name="CPQ End to End Order(failed)">
+    <classes>
+      <class name="Testscript.ModtechForIPAccessDomainAndGuardian">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="setup"/>
+          <include name="BeforeSuite"/>
+          <include name="Teardown"/>
+          <include name="EndtoEndModifyyOrder" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testscript.ModtechForIPAccessDomainAndGuardian -->
+    </classes>
+  </test> <!-- CPQ End to End Order(failed) -->
+</suite> <!-- Failed suite [CPQ End to End Order] -->

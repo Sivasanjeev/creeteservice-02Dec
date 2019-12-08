@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [APT_MCS_CreateCustomer Test Suite]">
+  <test parallel="classes" name="APT(failed)">
+    <classes>
+      <class name="com.saksoft.qa.testscripts2.APT_MCS_CreateCustomer">
+        <methods>
+          <include name="setup"/>
+          <include name="createCustomer_verifyFunctionality" invocation-numbers="0 1"/>
+          <include name="verifyCreateCustomerMandatoryFields"/>
+          <include name="deleteCustomer_verifyFunctionality" invocation-numbers="0 1"/>
+          <include name="addUser_verifyFields" invocation-numbers="0 1"/>
+          <include name="Teardown"/>
+          <include name="editCustomer_verifyFields" invocation-numbers="0 1"/>
+          <include name="verifyCreateCustomerFields"/>
+          <include name="BeforeMethod"/>
+          <include name="BeforeSuite"/>
+        </methods>
+      </class> <!-- com.saksoft.qa.testscripts2.APT_MCS_CreateCustomer -->
+    </classes>
+  </test> <!-- APT(failed) -->
+</suite> <!-- Failed suite [APT_MCS_CreateCustomer Test Suite] -->

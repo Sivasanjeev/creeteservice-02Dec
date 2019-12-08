@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+
+<ManageCustomerServiceLink>//a[contains(text(),"Manage Customer's Service")]</ManageCustomerServiceLink>
+
+<SearchOrderService>
+<SearchOrderServiceLink>//a[contains(text(),'Search Order / Service')]</SearchOrderServiceLink>
+<SearchForOrder_Text>//li[text()='Search For Order']</SearchForOrder_Text>
+<OrderContactNumberPresentSID_Text>//label[contains(text(),'Order/Contact Number(Present(SID)')]</OrderContactNumberPresentSID_Text>
+<OrderContactNumberPresentSID_Textfield>//input[@id='contactNumber']</OrderContactNumberPresentSID_Textfield>
+<RFI_RFQ_IPVoiceLineNumber_Text>//label[contains(text(),'RFI/RFQ/IP Voice Line Number')]</RFI_RFQ_IPVoiceLineNumber_Text>
+<RFI_RFQ_IPVoiceLineNumber_Textfield>//input[@id='mainDomain']</RFI_RFQ_IPVoiceLineNumber_Textfield>
+<Service_Text>//label[@class='form-label'][contains(text(),'Service')]</Service_Text>
+<Service_Textfield>//input[@id='service']</Service_Textfield>
+<VPN_SiteOrdNo_TrunkGroupOrdNo_Text>//label[contains(text(),'VPN Site Ord No#/Trunk Group Ord No#')]</VPN_SiteOrdNo_TrunkGroupOrdNo_Text>
+<VPN_SiteOrdNo_TrunkGroupOrdNo_Textfield>//input[@id='vpnsiteorder']</VPN_SiteOrdNo_TrunkGroupOrdNo_Textfield>
+<DeviceName_Text>//label[contains(text(),'Device Name')]</DeviceName_Text>
+<DeviceName_Textfield>//input[@id='devicename']</DeviceName_Textfield>
+<InterfaceName_Text>//label[contains(text(),'Interface Name')]</InterfaceName_Text>
+<InterfaceName_Textfield>//input[@id='interfacename']</InterfaceName_Textfield>
+<ServiceType_Text>//label[contains(text(),'Service Type')]</ServiceType_Text>
+<ServiceType_Select>//div/div/main/div[2]/div/div/form/div[4]/div[1]/div/div/div/div[1]</ServiceType_Select>
+<TypeAnything_Textfield>//input[@placeholder='Type anything']</TypeAnything_Textfield>
+<ServiceSubType_Text>//label[contains(text(),'Service Sub Type')]</ServiceSubType_Text>
+<ServiceSubType_Select>//div/div/main/div[2]/div/div/form/div[4]/div[2]/div/div/div/div[1]/div</ServiceSubType_Select>
+<ServiceType_Select2>//*[@id="root"]/div/div/main/div[2]/div/div/form/div[4]/div[1]/div/div/div/div[3]/div/div/div/div</ServiceType_Select2>
+<Country_Text>//label[contains(text(),'Country')]</Country_Text>
+<Country_Select>//div[3]//div[1]//div[1]//div[1]//div[1]//div[1]</Country_Select>
+<City_Text>//label[contains(text(),'City')]</City_Text>
+<City_Select>//div[@class='div-margin row']//div[4]//div[1]//div[1]//div[1]//div[1]//div[1]</City_Select>
+<TrunkName_Text>//label[contains(text(),'Trunk Name')]</TrunkName_Text>
+<TrunkName_Textfield>//input[@id='trunkname']</TrunkName_Textfield>
+<DomainName_Text>//label[contains(text(),'Domain Name')]</DomainName_Text>
+<DomainName_Textfield>//input[@id='domainname']</DomainName_Textfield>
+<VPN_PropositionID_Text>//label[contains(text(),'VPN Proposition ID')]</VPN_PropositionID_Text>
+<VPN_PropositionID_Textfield>//input[@id='vpnproposition']</VPN_PropositionID_Textfield>
+<IP_Address_Text>//label[contains(text(),'IP Address')]</IP_Address_Text>
+<IP_Address_Textfield>//input[@id='ipaddress']</IP_Address_Textfield>
+<VoiceLineReference_Text>//label[contains(text(),'Voice Line Reference')]</VoiceLineReference_Text>
+<VoiceLineReference_Textfield>//input[@id='voicelineref']</VoiceLineReference_Textfield>
+<Remark_Text>//label[contains(text(),'Remark')]</Remark_Text>
+<Remark_Textfield>//input[@id='remark']</Remark_Textfield>
+<ListTestCircuits_Text>//label[contains(text(),'List Test Circuits')]</ListTestCircuits_Text>
+<ListTestCircuits_Checkbox>//input[@id='enableDedicatedPortal']</ListTestCircuits_Checkbox>                                                                            
+<Search_Button>//span[contains(text(),'Search')]</Search_Button>
+
+
+
+</SearchOrderService>
+
+</locators>
+
+

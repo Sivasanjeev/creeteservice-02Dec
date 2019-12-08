@@ -1,0 +1,123 @@
+[TestNG] Running:
+  C:\Users\pramod.k\eclipse-workspace\APT_Automation_M8\testng.xml
+
+== APT app logged in successfully ===
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 12
+The values found are {TechnicalContactName=testerSon2, Email=testpk27@test.com, DedicatedPortalStatus=Yes, CountryToBeSelected=AT (Austria), Reference=testreference1, Phone=9.87654321E9, MainDomain=domain.com, OCN=testocn1, Fax=1.1223344E7, TypeToBeSelected=Colt Telecom - internal, DedicatedPortal=Vodafone Portal, Name=testpk29}
+Total number of values to be passed in excel: 12
+file extension name is : .xlsx
+The workbook used is in XLSX format
+The sheet name is : CreateCustomerDataEntry
+The row count is: 46
+====The last cell number is: ==========12
+Data to be entered are: testpk29
+Data to be entered are: domain.com
+Data to be entered are: India
+Data to be entered are: testocn1
+Data to be entered are: testreference1
+Data to be entered are: testerSon2
+Data to be entered are: AT
+Data to be entered are: testpk27@test.com
+Data to be entered are: 9.87654321E9
+Data to be entered are: 1.1223344E7
+Data to be entered are: created Data
+Data to be entered are: Mon Nov 18 11:00:46 IST 2019
+Till here working fine
+Row count: 1
+Column count: 12
+The values found are {TechnicalContactName=testerSon2, Email=testpk27@test.com, DedicatedPortalStatus=Yes, CountryToBeSelected=AT (Austria), Reference=testreference1, Phone=9.87654321E9, MainDomain=domain.com, OCN=testocn1, Fax=1.1223344E7, TypeToBeSelected=Colt Telecom - internal, DedicatedPortal=Vodafone Portal, Name=testpk29}
+the values going to be entered are: testpk29
+Total number of values to be passed in excel: 12
+file extension name is : .xlsx
+The workbook used is in XLSX format
+The sheet name is : CreateCustomerDataEntry
+The row count is: 47
+====The last cell number is: ==========12
+Data to be entered are: testpk29
+Data to be entered are: domain.com
+Data to be entered are: India
+Data to be entered are: testocn1
+Data to be entered are: testreference1
+Data to be entered are: testerSon2
+Data to be entered are: AT
+Data to be entered are: testpk27@test.com
+Data to be entered are: 9.87654321E9
+Data to be entered are: 1.1223344E7
+Data to be entered are: updated Data
+Data to be entered are: Mon Nov 18 11:00:56 IST 2019
+Till here working fine
+== APT app logged in successfully ===
+Row count: 1
+Column count: 6
+The values found are {Reference=testreference1, CountryToBeSelected=AT (Austria, OCN=testocn1, MainDomain=testpk27.com, TypeToBeSelected=Colt Telecom-Internal, Name=testpk27}
+
+===============================================
+APT_MCS Test Suite
+Total tests run: 13, Failures: 1, Skips: 0
+===============================================
+
+Press any key to continue . . . [TestNG] Running:
+  C:\Users\pramod.k\eclipse-workspace\APT_Automation_M1\testng.xml
+
+== APT app logged in successfully ===
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 27
+The values found are {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}
+Row count: 1
+Column count: 12
+The values found are {TechnicalContactName=testerSon2, Email=testpk27@test.com, DedicatedPortalStatus=Yes, CountryToBeSelected=AT (Austria), Reference=testreference1, Phone=9.87654321E9, MainDomain=domain.com, OCN=testocn1, Fax=1.1223344E7, TypeToBeSelected=Colt Telecom - internal, DedicatedPortal=Vodafone Portal, Name=testpk29}
+Row count: 1
+Column count: 12
+The values found are {TechnicalContactName=testerSon2, Email=testpk27@test.com, DedicatedPortalStatus=Yes, CountryToBeSelected=AT (Austria), Reference=testreference1, Phone=9.87654321E9, MainDomain=domain.com, OCN=testocn1, Fax=1.1223344E7, TypeToBeSelected=Colt Telecom - internal, DedicatedPortal=Vodafone Portal, Name=testpk29}
+the values going to be entered are: testpk29
+Row count: 1
+Column count: 6
+The values found are {Reference=testreference1, CountryToBeSelected=AT (Austria, OCN=testocn1, MainDomain=testpk27.com, TypeToBeSelected=Colt Telecom-Internal, Name=testpk27}
+
+===============================================
+APT_MCS Test Suite
+Total tests run: 13, Failures: 11, Skips: 2
+Configuration Failures: 1, Skips: 4
+===============================================
+
+Press any key to continue . . . 

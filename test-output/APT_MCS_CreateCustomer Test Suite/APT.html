@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  APT</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>APT</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 16 16:50:33 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>245 seconds (245179 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.createCustomer_verifyFunctionality()'><b>createCustomer_verifyFunctionality</b><br>Test class: com.saksoft.qa.testscripts.APT_MCS_CreateCustomer<br>Test method: TC-01<br>Parameters: {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}</td>
+<td></td>
+<td>24</td>
+<td>com.saksoft.qa.testscripts.APT_MCS_CreateCustomer@2893de87</td></tr>
+<tr>
+<td title='com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyAddUserFieldsUnderCreateCustomer()'><b>verifyAddUserFieldsUnderCreateCustomer</b><br>Test class: com.saksoft.qa.testscripts.APT_MCS_CreateCustomer<br>Test method: TC-04<br>Parameters: {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}</td>
+<td></td>
+<td>32</td>
+<td>com.saksoft.qa.testscripts.APT_MCS_CreateCustomer@2893de87</td></tr>
+<tr>
+<td title='com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyAddUserFunctionalityUnderCreateCustomer()'><b>verifyAddUserFunctionalityUnderCreateCustomer</b><br>Test class: com.saksoft.qa.testscripts.APT_MCS_CreateCustomer<br>Test method: TC-05<br>Parameters: {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}</td>
+<td></td>
+<td>55</td>
+<td>com.saksoft.qa.testscripts.APT_MCS_CreateCustomer@2893de87</td></tr>
+<tr>
+<td title='com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyAddedUserDetailsInViewUserPage()'><b>verifyAddedUserDetailsInViewUserPage</b><br>Test class: com.saksoft.qa.testscripts.APT_MCS_CreateCustomer<br>Test method: TC-06<br>Parameters: {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}</td>
+<td></td>
+<td>26</td>
+<td>com.saksoft.qa.testscripts.APT_MCS_CreateCustomer@2893de87</td></tr>
+<tr>
+<td title='com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyCreateCustomerFields()'><b>verifyCreateCustomerFields</b><br>Test class: com.saksoft.qa.testscripts.APT_MCS_CreateCustomer<br>Test method: TC-09</td>
+<td></td>
+<td>11</td>
+<td>com.saksoft.qa.testscripts.APT_MCS_CreateCustomer@2893de87</td></tr>
+<tr>
+<td title='com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyCreatedCustomerDetailsInCustomerDetailsPage()'><b>verifyCreatedCustomerDetailsInCustomerDetailsPage</b><br>Test class: com.saksoft.qa.testscripts.APT_MCS_CreateCustomer<br>Test method: TC-02<br>Parameters: {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}</td>
+<td></td>
+<td>23</td>
+<td>com.saksoft.qa.testscripts.APT_MCS_CreateCustomer@2893de87</td></tr>
+<tr>
+<td title='com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyDeleteCustomerFunctionality()'><b>verifyDeleteCustomerFunctionality</b><br>Test class: com.saksoft.qa.testscripts.APT_MCS_CreateCustomer<br>Test method: TC-03<br>Parameters: {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}</td>
+<td></td>
+<td>26</td>
+<td>com.saksoft.qa.testscripts.APT_MCS_CreateCustomer@2893de87</td></tr>
+<tr>
+<td title='com.saksoft.qa.testscripts.APT_MCS_CreateCustomer.verifyEditCustomerFields()'><b>verifyEditCustomerFields</b><br>Test class: com.saksoft.qa.testscripts.APT_MCS_CreateCustomer<br>Test method: TC-07<br>Parameters: {HideRouterToolsIPv6CommandsCisco_ToBeSelected=Ping, Email=testpk27@test.com, Email_AddUser=test@test.com, HideServicesToBeSelected=Ping, RolesToBeSelected=IV Customer Admin, Name=testpk27, TechnicalContactName=testerSon1, DedicatedPortalStatus=Yes, Phone=98765, MainDomain=testpk27.com, Phone_AddUser=7555555544, TypeToBeSelected=Colt Telecom - internal, HideRouterToolsIPv4CommandsCisco_ToBeSelected=Ping, GeneratePassword=Pass#*%word, UserName=Test User, CountryToBeSelected=AT (Austria), Reference=testreference1, FirstName=Test, ColtOnlineUser=test online, SurName=New, DedicatedPortal=Vodafone Portal, PostalAddress=North Street 1, HideRouterToolsIPv4CommandsHuiwai_ToBeSelected=Ping, HideSiteOrderToBeSelected=Ping, OCN=testocn1, IPGuardianAccountGroup=Group A, Fax=112233}</td>
+<td></td>
+<td>32</td>
+<td>com.saksoft.qa.testscripts.APT_MCS_CreateCustomer@2893de87</td></tr>
+</table><p>
+</body>
+</html>

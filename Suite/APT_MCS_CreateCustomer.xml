@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="APT_MCS_CreateCustomer Test Suite" parallel="classes">
+	<test name="APT" preserve-order="true">
+		<classes>
+			<class name="com.saksoft.qa.testscripts.APT_MCS_CreateCustomer" />
+		</classes>
+	</test>
+</suite>
+

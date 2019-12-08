@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+  
+    <InterfaceMLPPPedit>
+    
+        <ManageCustomerServices>//a[contains(text(),"Manage Customer's Service")]</ManageCustomerServices>
+        <InterfaceMLPPPEdit>//a[contains(text(),'Interface MLPPP Edit')]</InterfaceMLPPPEdit>
+        
+        <ConfigureInterfaceOnDevice_checkbox>//input[@id='conIntOnDev']</ConfigureInterfaceOnDevice_checkbox>
+        <InterfaceName>//input[@id='interfacename']</InterfaceName>
+        <NetworkDropdown>//select[@id='network']</NetworkDropdown>
+        <GetAddress>//span[contains(text(),'Get Address')]</GetAddress>
+        <EIPAllocation>//span[contains(text(),'EIP Allocation')]</EIPAllocation> 
+        <InterfaceAddressRangeLeft>(//input[@id='interfaceaddressname'])[1]</InterfaceAddressRangeLeft>
+        <ArrowbuttonBetweenInterfaceAdressRange>(//button[@class='btn btnSquar btnWitdh getAddBtnStyle btn-secondary   '])[2]</ArrowbuttonBetweenInterfaceAdressRange>
+        <InterfaceAddressRangeRight>(//input[@id='interfaceaddressname'])[2]</InterfaceAddressRangeRight>
+        <EncapsulationDropdown>(//select[@id='bearertype'])[1]</EncapsulationDropdown>
+        <DSLDownstreamSpeedDropdown>(//select[@id='bearertype'])[2]</DSLDownstreamSpeedDropdown>
+        <DSLUpstreamSpeedDropdown>(//select[@id='bearertype'])[3]</DSLUpstreamSpeedDropdown>
+        <SpeedDropdown>(//select[@id='bearertype'])[4]</SpeedDropdown>
+        <DuplexDropdown>(//select[@id='bearertype'])[5]</DuplexDropdown>
+        <IncapsulationDropdown>(//select[@id='bearertype'])[6]</IncapsulationDropdown>
+        <IVmanagementCheckBox>//input[@id='ivmanagement']</IVmanagementCheckBox>
+       
+
+    </InterfaceMLPPPedit>
+    
+    
+    
+    <MultilinkBearer>
+        
+         <RadioButton>//div[@class='ag-body ag-layout-normal ag-row-no-animation']/div[2]</RadioButton>
+         <CheckToAddToMultilinkHeader>//div[@class='ag-header ag-pivot-off']//*[contains(text(),'Check to add to Multilink')]</CheckToAddToMultilinkHeader>
+         <InterfaceHeader>//div[@class='ag-header ag-pivot-off']//*[contains(text(),'Interface')]</InterfaceHeader>
+         <Link_circuitHeader>//div[@class='ag-header ag-pivot-off']//*[contains(text(),'Link/Circuit Id')]</Link_circuitHeader>
+         
+         <valueToBeCaught>(//div[contains(text(),'Interface 1')])[2]</valueToBeCaught>
+    
+    </MultilinkBearer>
+
+</locators>

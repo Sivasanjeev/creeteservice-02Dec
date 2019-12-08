@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+  
+    <InterfaceMultiLinkEdit>
+    
+        <ManageCustomerServices>//a[contains(text(),"Manage Customer's Service")]</ManageCustomerServices>
+        <InterfaceWANedit>//a[contains(text(),'interface ATM WAN PE Edit')]</InterfaceWANedit>
+  
+        <ConfigureInterfaceOnDevice_checkbox>//input[@id='conIntOnDev']</ConfigureInterfaceOnDevice_checkbox>
+        <InterfaceName>//input[@id='interfacename']</InterfaceName>
+        <NetworkDropdown>//select[@id='network']</NetworkDropdown>
+        <GetAddress>//span[contains(text(),'Get Address')]</GetAddress>
+        <EIPAllocation>//span[contains(text(),'EIP Allocation')]</EIPAllocation> 
+        <InterfaceAddressRange>(//input[@id='interfaceaddressname'])[1]</InterfaceAddressRange>
+        <ArrowbuttonBetweenInterfaceAdressRange>(//button[@class='btn btnSquar btnWitdh getAddBtnStyle btn-secondary   '])[2]</ArrowbuttonBetweenInterfaceAdressRange>
+        <LinkDropdown>//select[@id='link']</LinkDropdown>
+        <BearerTypeDropdown>(//select[@id='bearertype'])[1]</BearerTypeDropdown> 
+        <EncapsulationDropdown>(//select[@id='bearertype'])[2]</EncapsulationDropdown>
+        <PPPEncapsulateDropdown>(//select[@id='bearertype'])[3]</PPPEncapsulateDropdown>
+        <DSLUpstreamDropdown>(//select[@id='bearertype'])[4]</DSLUpstreamDropdown>
+        <DSLDownstreamDropdown>(//select[@id='bearertype'])[5]</DSLDownstreamDropdown>
+        <MBSDropdown>(//select[@id='bearertype'])[6]</MBSDropdown>
+        <VPI>(//input[@id='unitid'])[1]</VPI>
+        <VCI>(//input[@id='unitid'])[2]</VCI>
+        <SlotDropdown>(//select[@id='bearertype'])[7]</SlotDropdown>
+        <PortDropdown>(//select[@id='bearertype'])[8]</PortDropdown>
+        <IVmanagementCheckbox>//input[@id='ivmanagement']</IVmanagementCheckbox>
+       
+    </InterfaceMultiLinkEdit>
+    
+    
+    <Configuration>
+        <GenerateConfigurationHyperlink>//*[contains(text(),'Generate Configuration')]</GenerateConfigurationHyperlink>
+        <SaveConfigurationtoFileHyperlink>//*[contains(text(),'Save Configuration to File')]</SaveConfigurationtoFileHyperlink>
+        <EnterConfiguration>//input[@id='configuration']</EnterConfiguration>
+        <ExecuteAndSaveButton>//span[contains(text(),'Execute and Save')]</ExecuteAndSaveButton>
+        <CancelButton>//span[contains(text(),'Cancle')]</CancelButton>
+    </Configuration>
+
+</locators>

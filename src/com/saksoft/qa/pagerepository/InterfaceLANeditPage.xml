@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+
+	<InterfaceLANedit>
+
+
+		<ManageCustomerServices>//a[contains(text(),"Manage Customer's Service")]</ManageCustomerServices>
+		<InterfaceLANedit>//a[contains(text(),'Interface LAN Edit')]</InterfaceLANedit>
+
+
+		<InterfaceName>//input[@id='interfacename']</InterfaceName>
+		<DropdownForNetwork>//select[@id='network']</DropdownForNetwork>
+		<GetAddress>//span[contains(text(),'Get Address')]</GetAddress>
+		<EIPAllocation>//span[contains(text(),'EIP Allocation')]
+		</EIPAllocation>
+		<InterfaceAddressRange1>(//input[@id='interfaceaddressname'])[1]
+		</InterfaceAddressRange1>
+		<ArrowbuttonBetweenInterfaceAdressRange>//span[contains(text(),'>>')]</ArrowbuttonBetweenInterfaceAdressRange>
+		<InterfaceAddressRange2>(//input[@id='interfaceaddressname'])[2]
+		</InterfaceAddressRange2>
+		<IVmanagementCheckBox>//input[@id='ivmanagement']
+		</IVmanagementCheckBox>
+		<SpeedDropDown>(//select[@class='form-control'])[2]</SpeedDropDown>
+		<DuplexDropDown>(//select[@class='form-control'])[3]</DuplexDropDown>
+		<IncapsulationDropDown>(//select[@class='form-control'])[4]
+		</IncapsulationDropDown>
+
+
+		<breadcrumb>//li[@class='active breadcrumb-item']</breadcrumb>
+		<HomeLink>//a[contains(text(),'Home')]</HomeLink>
+
+	</InterfaceLANedit>
+	
+	
+	<SecondaryIps>
+	    
+	    <radioButtonForSecondaryIps>(//div[@class='ag-body ag-layout-normal ag-row-no-animation'])[1]/div[2]</radioButtonForSecondaryIps>
+        <SecondaryIpsHeader_CommonHeader>(//div[@class='ag-root ag-font-style ag-layout-normal'])[1]/div/div/div//div[@class='ag-header-row']/div</SecondaryIpsHeader_CommonHeader>
+        <SecondaryIps_PageNavigationArrowForFirstPage>(//span[@class='ag-paging-page-summary-panel'])[1]//*[text()='First']</SecondaryIps_PageNavigationArrowForFirstPage>
+        <SecondaryIps_PageNavigationArrowForPreviousPage>(//span[@class='ag-paging-page-summary-panel'])[1]//*[text()='Previous']</SecondaryIps_PageNavigationArrowForPreviousPage>
+        <SecondaryIps_PageNavigationArrowForNextPage>(//span[@class='ag-paging-page-summary-panel'])[1]//*[text()='Next']</SecondaryIps_PageNavigationArrowForNextPage>
+        <SecondaryIps_PageNavigationArrowForLastPage>(//span[@class='ag-paging-page-summary-panel'])[1]//*[text()='Last']</SecondaryIps_PageNavigationArrowForLastPage>
+	
+	</SecondaryIps>
+
+</locators>

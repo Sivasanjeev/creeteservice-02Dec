@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+
+<ManageCustomerServiceLink>//a[contains(text(),"Manage Customer's Service")]</ManageCustomerServiceLink>
+<SearchCustomer>
+<SearchCustomerLink>//a[text()='Search Customer']</SearchCustomerLink>
+<Name>//input[@id='custName']</Name>
+<Name_Textfield>//label[text()='Name']</Name_Textfield>	
+<OCN>//input[@id='ocn']</OCN>
+<OCN_Textfield>//label[contains(text(),'OCN')]</OCN_Textfield>	
+<MainDomain>//input[@id='mainDomain']</MainDomain>
+<MainDomain_Textfield>//label[contains(text(),'Main Domain')]</MainDomain_Textfield>	
+<Reference>//input[@id='reference']</Reference>	
+<Reference_Textfield>//label[contains(text(),'Reference')]</Reference_Textfield>
+<CountrySelect>//div[@class='div-margin container']//div[1]//div[1]//div[1]//div[1]//div[1]//input[1]</CountrySelect>
+<Country_Text>//label[contains(text(),'Country')]</Country_Text>
+<TypeSelect>//div[@class='div-margin row']//div[2]//div[1]//div[1]//div[1]//div[1]//input[1]</TypeSelect>	
+<Type_Text>//label[contains(text(),'Type')]</Type_Text>
+<Search_Button>//span[contains(text(),'Search')]</Search_Button>
+<DownloadToExcelLink>//a[contains(@class,'customLink heading-green-1')]</DownloadToExcelLink>
+<searchresultsgrid>//div[@ref='gridPanel']</searchresultsgrid>
+<searchresultrows>//input[@type='radio']</searchresultrows>
+<SearchCustomerResult_Actionmenu>//button[@id='dropdown-basic-button']</SearchCustomerResult_Actionmenu>
+<ViewCustomerLink>//a[contains(text(),'View Customer')]</ViewCustomerLink>
+<ManageServiceLink>//a[contains(text(),'Manage Service')]</ManageServiceLink>
+
+</SearchCustomer>
+
+</locators>
+
+

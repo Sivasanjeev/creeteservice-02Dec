@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+
+<ManageCustomerServiceLink>//a[contains(text(),"Manage Customer's Service")]</ManageCustomerServiceLink>
+
+<AddMultilink>
+<AddMultilink_Link>//a[contains(text(),'Add Multilink')]</AddMultilink_Link>
+<ConfigureInterfaceonDevice_Text>//label[contains(text(),'Configure Interface on Device')]</ConfigureInterfaceonDevice_Text>
+<ConfigureInterfaceonDevice_Checkbox>//input[@id='conIntOnDev']</ConfigureInterfaceonDevice_Checkbox>
+<Network_Text>//label[contains(text(),'Network')]</Network_Text>
+<Network_Select>//select[@id='network']</Network_Select>
+<GetAddress_Link>//span[contains(text(),'Get Address')]</GetAddress_Link>
+<EIP_Allocation_Link>//span[contains(text(),'EIP Allocation')]</EIP_Allocation_Link>
+<InterfaceAddressRange_Text>//label[@class='form-label'][contains(text(),'Interface Address Range')]</InterfaceAddressRange_Text>
+<InterfaceAddressRange_Textfield>//input[@id='interfaceaddress3']</InterfaceAddressRange_Textfield>
+<ForwardArrow_Button>//span[contains(text(),'>>')]</ForwardArrow_Button>
+<Address1_Text>(//label[text()='Address'])[1]</Address1_Text>
+<Address1_Textfield>//input[@id='interfaceaddress1']</Address1_Textfield>
+<Address2_Text>(//label[text()='Address'])[2]</Address2_Text>
+<Address2_Textfield>//input[@id='address']</Address2_Textfield>
+<Link_Text>//label[contains(text(),'Link')]</Link_Text>
+<Link_Textfield>//input[@id='link']</Link_Textfield>
+<Encapsulation_Text>//label[contains(text(),'Encapsulation')]</Encapsulation_Text>
+<Encapsulation_Select>//select[@id='encapsulation']</Encapsulation_Select>
+<UnitID_Text>//label[contains(text(),'Unit ID')]</UnitID_Text>
+<UnitID_Textfield>//input[@id='unitid']</UnitID_Textfield>
+<Slot_Text>//label[contains(text(),'Slot')]</Slot_Text>
+<Slot_Textfield>//input[@id='slot']</Slot_Textfield>
+<Pic_Text>//label[contains(text(),'Pic')]</Pic_Text>
+<pic_Textfield>//input[@id='pic']</pic_Textfield>
+<Port_Text>//label[contains(text(),'Port')]</Port_Text>
+<Port_Textfield>//input[@id='port']</Port_Textfield>
+<STM1Number_Text>//label[contains(text(),'STM1 Number')]</STM1Number_Text>
+<STM1Number_Textfield>//input[@id='stm1number']</STM1Number_Textfield>
+<Interface_Text>(//label[contains(text(),'Interface')])[4]</Interface_Text>
+<Interface_Textfield>//input[@id='interfaceName']</Interface_Textfield>
+<IVmanagement_Text>//label[contains(text(),'IV management')]</IVmanagement_Text>
+<IVmanagement_Checkbox>//input[@id='ivmanagement']</IVmanagement_Checkbox>
+<AtricaConnected_Text>//label[contains(text(),'Atrica Connected')]</AtricaConnected_Text>
+<AtricaConnected_Checkbox>//input[@id='atricaconnected']</AtricaConnected_Checkbox>
+<BGP_Text>//label[contains(text(),'BGP')]</BGP_Text>
+<BGP_Checkbox>//input[@id='bgp']</BGP_Checkbox>
+<MultilinkBearers_Text>//div[contains(text(),'Multilink Bearers')]</MultilinkBearers_Text>
+
+
+
+
+
+
+</AddMultilink>
+
+</locators>
+
+
